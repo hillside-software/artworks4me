@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20190729T153754Z
+DESCRIPTION:WEBCAST TODAY! The benefits of being tax-smart throughout the y
+	ear \nTuesday\, September 10\, 2019\nNoon–1 p.m. ET\n\n** REGISTER AND J
+	OIN NOW: **\nhttps://www.fidelity.com/learning-center/events/tax-season\n\
+	nJoin us as Ernst & Young highlights tax-smart actions you can take throug
+	hout the year to help minimize what you owe. They’ll cover:\n\n* Tax adv
+	antages of traditional and Roth IRAs\n* Using an IRA to shelter tax liabil
+	ities\n* Tax benefits of a 529 college plan\n* Best practices for state-re
+	lated returns and owning multiple properties\n\nBecause Fidelity believes
+	being tax-smart is more than just having tax-season strategies.\n\n\n** RE
+	GISTER AND JOIN NOW: **\nhttps://www.fidelity.com/learning-center/events/t
+	ax-season\n\n
+DTEND;TZID="Eastern Standard Time":20190910T130000
+DTSTAMP:20190729T153754Z
+DTSTART;TZID="Eastern Standard Time":20190910T120000
+LAST-MODIFIED:20190729T153754Z
+LOCATION:https://www.fidelity.com/learning-center/events/tax-season
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:WEBCAST TODAY! The benefits of being tax-smart throu
+	ghout the year - JOIN NOW!
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000A0DE5F070246D501000000000000000
+	01000000054367D0CFBDA5B44BF80A33770D1835D
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 16.0.11328.20314">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted
+	 from text/plain format -->\n\n<P><FONT SIZE=2>WEBCAST TODAY! The benefits
+	 of being tax-smart throughout the year </FONT>\n\n<BR><FONT SIZE=2>Tuesda
+	y\, September 10\, 2019</FONT>\n\n<BR><FONT SIZE=2>Noon–1 p.m. ET</FONT>
+	\n</P>\n\n<P><FONT SIZE=2>** REGISTER AND JOIN NOW: **</FONT>\n\n<BR><FONT
+	 SIZE=2><A HREF="https://www.fidelity.com/learning-center/events/tax-seaso
+	n">https://www.fidelity.com/learning-center/events/tax-season</A></FONT>\n
+	</P>\n\n<P><FONT SIZE=2>Join us as Ernst &amp\; Young highlights tax-smart
+	 actions you can take throughout the year to help minimize what you owe. T
+	hey’ll cover:</FONT></P>\n\n<P><FONT SIZE=2>* Tax advantages of traditio
+	nal and Roth IRAs</FONT>\n\n<BR><FONT SIZE=2>* Using an IRA to shelter tax
+	 liabilities</FONT>\n\n<BR><FONT SIZE=2>* Tax benefits of a 529 college pl
+	an</FONT>\n\n<BR><FONT SIZE=2>* Best practices for state-related returns a
+	nd owning multiple properties</FONT>\n</P>\n\n<P><FONT SIZE=2>Because Fide
+	lity believes being tax-smart is more than just having tax-season strategi
+	es.</FONT>\n</P>\n<BR>\n\n<P><FONT SIZE=2>** REGISTER AND JOIN NOW: **</FO
+	NT>\n\n<BR><FONT SIZE=2><A HREF="https://www.fidelity.com/learning-center/
+	events/tax-season">https://www.fidelity.com/learning-center/events/tax-sea
+	son</A></FONT>\n</P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT120M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
