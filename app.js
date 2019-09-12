@@ -14,7 +14,7 @@ app.use(cors({origin: true, credentials: true})) // <= Disable if you don't need
 // host all folder static files
 
 app.use('/', express.static('./', {
-  maxAge: '60s',
+// maxAge: '60s',
   setHeaders: (res, path) => {
     if (path.includes('apple-app-site-association')) {
       res.setHeader('Content-Type', 'application/json')
