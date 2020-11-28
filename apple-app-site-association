@@ -1,23 +1,13 @@
-
 {
-
-	"appclips": {
-        	"apps": [ "QT5MQ7KPJH.com.hillsidesoftware.notouchtags.appclip" ]
-    		},
-
 	"applinks": {
     		"apps": [],
     		"details": [
       		{
-        		"appID":  "QT5MQ7KPJH.com.hillsidesoftware.notouchtags",
+        		"appID":  "QT5MQ7KPJH.com.hillsidesoftware.artworks4me",
         		"paths": [
           		"*"
         ]
       }
     ]
   }
-
 }
-
-
-
